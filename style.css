@@ -4,6 +4,7 @@ body {
   text-shadow: 0px 0px 5px white;
   font-family: 'Roboto';
   user-select: none;
+  webkit-tap-highlight-color: transparent;
 }
 
 h1{
