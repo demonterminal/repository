@@ -1,0 +1,45 @@
+body {
+  background: #1C1C1C;
+  color: white;
+  text-shadow: 0px 0px 5px white;
+  font-family: 'Roboto';
+  user-select: none;
+}
+
+h1{
+  
+  font-weight: 10;
+  color: red;
+  text-shadow: 0px 0px 5px orangered;
+}
+
+input{
+  background: linear-gradient(transparent, rgba(255, 0,0,0.5));
+  border: 1px solid red;
+  box-shadow: 0px 0px 5px red;
+  color:white;
+  font-size: 16px;font-weight: 10;
+  padding: 10PX;
+  outline: none;
+  width: 90%;
+}
+
+
+.folder{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid red;
+  background: rgba(255, 0,0, 0.05);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.folder span{
+  margin-left: 10px;
+}
+.folder:hover{
+  background: rgba(255, 0,0,0.2);
+}
+.folder:active{
+  background: rgba(255, 0,0,0.5);
+}
